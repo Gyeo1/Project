@@ -1,0 +1,282 @@
+*************************************************************
+FileName = ARDUINO.GBR
+AutoAperture = True
+*************************************************************
+Generating : Keep-Out Layer
+      File : ARDUINO.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Top Component Outline
+      File : ARDUINO.GM14
+
+    Adding Layer      : Top Component Outline
+
+
+Used DCodes :
+    D42
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : ARDUINO.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 4
+      File : ARDUINO.GM4
+
+    Adding Layer      : Mechanical 4
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 2
+      File : ARDUINO.GM2
+
+    Adding Layer      : Mechanical 2
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : ARDUINO.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D39
+    D40
+    D41
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : ARDUINO.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D39
+    D40
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : ARDUINO.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D15
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D33
+    D38
+    D39
+    D40
+    D41
+*************************************************************
+
+*************************************************************
+Generating : Top Component Center
+      File : ARDUINO.GM16
+
+    Adding Layer      : Top Component Center
+
+
+Used DCodes :
+    D11
+    D42
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 15
+      File : ARDUINO.GM15
+
+    Adding Layer      : Mechanical 15
+
+
+Used DCodes :
+    D11
+    D42
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : ARDUINO.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D33
+    D38
+    D39
+    D40
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : ARDUINO.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D36
+    D37
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : ARDUINO.GM8
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D10
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : ARDUINO.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : ARDUINO.GM7
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D10
+    D42
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : ARDUINO.GM13
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+    D10
+    D11
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : ARDUINO.GM5
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : ARDUINO.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+*************************************************************
+

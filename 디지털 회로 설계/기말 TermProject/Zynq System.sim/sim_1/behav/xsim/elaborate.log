@@ -1,0 +1,9 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 9307d33ee38944aa8b221dcb599b3bbf --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port logic_out [C:/Users/Public/Zynq System/Zynq System.srcs/sim_1/new/tb_top.v:33]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port common_digit [C:/Users/Public/Zynq System/Zynq System.srcs/sim_1/new/tb_top.v:34]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

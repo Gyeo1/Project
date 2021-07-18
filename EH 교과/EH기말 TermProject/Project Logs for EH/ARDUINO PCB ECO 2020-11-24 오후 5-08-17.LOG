@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=IOH Old Footprint=HDR1X10 New Footprint=MHDR1X10
+Added Class: Name=Minized
+Added Room: Name=Minized

@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Zynq System.srcs/sources_1/bd/Zynq_System/ipshared/ec67/hdl" --include "../../../../Zynq System.srcs/sources_1/bd/Zynq_System/ipshared/02c8/hdl/verilog" --include "../../../../Zynq System.srcs/sources_1/bd/Zynq_System/ipshared/1313/hdl" --include "C:/Xilinx/Vivado/2017.4/data/xilinx_vip/include" \
+"../../../../Zynq System.srcs/sources_1/new/LogicSignalOut.v" \
+"../../../../Zynq System.srcs/sim_1/new/tb_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

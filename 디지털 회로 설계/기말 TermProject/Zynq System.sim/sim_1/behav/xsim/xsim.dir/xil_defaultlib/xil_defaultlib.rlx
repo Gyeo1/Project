@@ -1,0 +1,7 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/Public/Zynq System/Zynq System.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,axi_protocol_checker_v2_0_1;axi_vip_v1_1_1;processing_system7_vip_v1_0_3;smartconnect_v1_0;xilinx_vip,,,,,,
+C:/Users/Public/Zynq System/Zynq System.srcs/sim_1/new/tb_top.v,1590645135,verilog,,,,tb_top,,axi_protocol_checker_v2_0_1;axi_vip_v1_1_1;processing_system7_vip_v1_0_3;smartconnect_v1_0;xilinx_vip,../../../../Zynq System.srcs/sources_1/bd/Zynq_System/ipshared/02c8/hdl/verilog;../../../../Zynq System.srcs/sources_1/bd/Zynq_System/ipshared/1313/hdl;../../../../Zynq System.srcs/sources_1/bd/Zynq_System/ipshared/ec67/hdl;C:/Xilinx/Vivado/2017.4/data/xilinx_vip/include,,,,,
+C:/Users/Public/Zynq System/Zynq System.srcs/sources_1/new/LogicSignalOut.v,1592211848,verilog,,C:/Users/Public/Zynq System/Zynq System.srcs/sim_1/new/tb_top.v,,LogicSignalOut,,axi_protocol_checker_v2_0_1;axi_vip_v1_1_1;processing_system7_vip_v1_0_3;smartconnect_v1_0;xilinx_vip,../../../../Zynq System.srcs/sources_1/bd/Zynq_System/ipshared/02c8/hdl/verilog;../../../../Zynq System.srcs/sources_1/bd/Zynq_System/ipshared/1313/hdl;../../../../Zynq System.srcs/sources_1/bd/Zynq_System/ipshared/ec67/hdl;C:/Xilinx/Vivado/2017.4/data/xilinx_vip/include,,,,,
