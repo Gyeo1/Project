@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Full_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Full_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Half_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Half_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Project_Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Project_Top

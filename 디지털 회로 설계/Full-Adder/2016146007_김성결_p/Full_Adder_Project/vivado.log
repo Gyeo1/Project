@@ -1,0 +1,223 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Apr 14 16:16:53 2020
+# Process ID: 788
+# Current directory: C:/Users/rlatj/OneDrive/Full_Adder_Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5500 C:\Users\rlatj\OneDrive\Full_Adder_Project\Full_Adder_Project.xpr
+# Log file: C:/Users/rlatj/OneDrive/Full_Adder_Project/vivado.log
+# Journal file: C:/Users/rlatj/OneDrive/Full_Adder_Project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:12 . Memory (MB): peak = 793.266 ; gain = 86.719
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z010clg225-1
+Top: Project_Top
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 917.648 ; gain = 105.629
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Project_Top' [C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Project_Top.v:1]
+INFO: [Synth 8-638] synthesizing module 'Testbench' [C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Testbench.v:23]
+WARNING: [Synth 8-85] always block has no event control specified [C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Testbench.v:39]
+WARNING: [Synth 8-85] always block has no event control specified [C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Testbench.v:43]
+WARNING: [Synth 8-85] always block has no event control specified [C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Testbench.v:47]
+INFO: [Synth 8-256] done synthesizing module 'Testbench' (1#1) [C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Testbench.v:23]
+INFO: [Synth 8-638] synthesizing module 'Full_Adder' [C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Full_Adder.v:23]
+INFO: [Synth 8-638] synthesizing module 'Half_Adder' [C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Half_Adder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Half_Adder' (2#1) [C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Half_Adder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Full_Adder' (3#1) [C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Full_Adder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Project_Top' (4#1) [C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Project_Top.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:19 ; elapsed = 00:00:18 . Memory (MB): peak = 969.340 ; gain = 157.320
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:18 . Memory (MB): peak = 969.340 ; gain = 157.320
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg225-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:47 ; elapsed = 00:00:36 . Memory (MB): peak = 1275.520 ; gain = 463.500
+12 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:00:36 . Memory (MB): peak = 1275.520 ; gain = 463.500
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Project_Top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Project_Top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Full_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Full_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Half_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Half_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Project_Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Project_Top
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 56f0c2795620477d84d559fb3fe9004f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Project_Top_behav xil_defaultlib.Project_Top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Testbench
+Compiling module xil_defaultlib.Half_Adder
+Compiling module xil_defaultlib.Full_Adder
+Compiling module xil_defaultlib.Project_Top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Project_Top_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Project_Top_behav -key {Behavioral:sim_1:Functional:Project_Top} -tclbatch {Project_Top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source Project_Top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Project_Top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1282.066 ; gain = 4.941
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1316.289 ; gain = 25.266
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Project_Top' [C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Project_Top.v:1]
+INFO: [Synth 8-638] synthesizing module 'Testbench' [C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Testbench.v:23]
+WARNING: [Synth 8-85] always block has no event control specified [C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Testbench.v:39]
+WARNING: [Synth 8-85] always block has no event control specified [C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Testbench.v:43]
+WARNING: [Synth 8-85] always block has no event control specified [C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Testbench.v:47]
+INFO: [Synth 8-256] done synthesizing module 'Testbench' (1#1) [C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Testbench.v:23]
+INFO: [Synth 8-638] synthesizing module 'Full_Adder' [C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Full_Adder.v:23]
+INFO: [Synth 8-638] synthesizing module 'Half_Adder' [C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Half_Adder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Half_Adder' (2#1) [C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Half_Adder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Full_Adder' (3#1) [C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Full_Adder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Project_Top' (4#1) [C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Project_Top.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 1355.594 ; gain = 64.570
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 1355.594 ; gain = 64.570
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:16 . Memory (MB): peak = 1355.594 ; gain = 64.633
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Project_Top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Project_Top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Full_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Full_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Half_Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Half_Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.srcs/sources_1/new/Project_Top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Project_Top
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 56f0c2795620477d84d559fb3fe9004f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Project_Top_behav xil_defaultlib.Project_Top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Testbench
+Compiling module xil_defaultlib.Half_Adder
+Compiling module xil_defaultlib.Full_Adder
+Compiling module xil_defaultlib.Project_Top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Project_Top_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Project_Top_behav -key {Behavioral:sim_1:Functional:Project_Top} -tclbatch {Project_Top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source Project_Top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Project_Top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1355.594 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 14 16:29:29 2020...

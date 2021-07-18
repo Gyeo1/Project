@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Apr 14 16:16:53 2020
+# Process ID: 788
+# Current directory: C:/Users/rlatj/OneDrive/Full_Adder_Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5500 C:\Users\rlatj\OneDrive\Full_Adder_Project\Full_Adder_Project.xpr
+# Log file: C:/Users/rlatj/OneDrive/Full_Adder_Project/vivado.log
+# Journal file: C:/Users/rlatj/OneDrive/Full_Adder_Project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/rlatj/OneDrive/Full_Adder_Project/Full_Adder_Project.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+launch_simulation
+source Project_Top.tcl
+refresh_design
+close_sim
+launch_simulation
+source Project_Top.tcl
+close_sim
